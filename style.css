@@ -62,6 +62,9 @@ h1 {
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
+  /* Shadow: horizontall->vertical->
+  blur of the shadow->->color*/
+  text-shadow: 0 10px 5px rgba(0,0,0,0.1);
 }
 
 .header-text {
@@ -125,6 +128,13 @@ img {
 }
 
 /* CHAIRS */
+.chair {
+  /* Shadow: horizontall->vertical->
+  blur of the shadow->
+  Scale the shadow up or radius(optional)->color*/
+  box-shadow: 0 20px 30px 0 rgba(0,0,0,0.1);
+
+}
 .chair-box {
   padding: 24px;
 }
